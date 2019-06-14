@@ -11,9 +11,9 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @RestController
 public class DemoApplication extends SpringBootServletInitializer {
 
-	@GetMapping("/hello")
+	@GetMapping("/")
 	public String sayHello() {
-		return "Hello nherdek";
+		return "Hello jenkins";
 	}
 
 	public static void main(String[] args) {
